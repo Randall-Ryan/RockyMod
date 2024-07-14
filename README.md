@@ -1,0 +1,1 @@
+~ cd /mnt/c/Users/Randu/Desktop/MC/RockyMod-1.20.1/
