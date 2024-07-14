@@ -1,6 +1,10 @@
 {
   "values": [
     "rockymod:sapphire_block",
-    "rockymod:raw_sapphire_block"
+    "rockymod:raw_sapphire_block",
+    "rockymod:sapphire_ore",
+    "rockymod:deepslate_sapphire_ore",
+    "rockymod:nether_sapphire_ore",
+    "rockymod:end_stone_sapphire_ore"
   ]
 }
