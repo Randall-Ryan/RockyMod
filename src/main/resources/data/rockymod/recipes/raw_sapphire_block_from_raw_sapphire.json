@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rockymod:raw_sapphire"
+    }
+  },
+  "result": {
+    "item": "rockymod:raw_sapphire_block"
+  }
+}
