@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.rocky.rockymod.RockyMod;
+import net.rocky.rockymod.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RockyMod.MOD_ID);
@@ -20,6 +21,8 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.SAPPHIRE.get());
                 pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                 pOutput.accept(Items.DIAMOND);
+                pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
     }).build());
     public static void register(IEventBus eventbus) {
         CREATIVE_MODE_TABS.register(eventbus);

@@ -1,5 +1,7 @@
 {
   "item.rockymod.sapphire": "Sapphire",
   "item.rockymod.raw_sapphire": "Raw Sapphire",
-  "creativetab.rocky_tab": "Rocky Tab"
+  "creativetab.rocky_tab": "Rocky Tab",
+  "block.rockymod.sapphire_block": "Block of Sapphire",
+  "block.rockymod.raw_sapphire_block": "Block of Raw Sapphire"
 }

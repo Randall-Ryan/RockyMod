@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.rocky.rockymod.block.ModBlocks;
 import net.rocky.rockymod.item.ModCreativeModTabs;
 import net.rocky.rockymod.item.ModItems;
 import org.slf4j.Logger;
@@ -30,6 +31,8 @@ public class RockyMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         ModItems.register(modEventBus);
 
@@ -50,6 +53,8 @@ public class RockyMod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.RAW_SAPPHIRE);
+            event.accept(ModBlocks.SAPPHIRE_BLOCK);
+            event.accept(ModBlocks.RAW_SAPPHIRE_BLOCK);
         }
     }
 
