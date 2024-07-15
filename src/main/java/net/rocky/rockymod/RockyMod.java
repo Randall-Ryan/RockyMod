@@ -55,6 +55,7 @@ public class RockyMod
             event.accept(ModItems.RAW_SAPPHIRE);
 
             // TODO: Are these needed??
+            event.accept(ModItems.METAL_DETECTOR);
             event.accept(ModBlocks.SAPPHIRE_BLOCK);
             event.accept(ModBlocks.RAW_SAPPHIRE_BLOCK);
             event.accept(ModBlocks.SAPPHIRE_ORE);
