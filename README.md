@@ -1,3 +1,4 @@
+<html>
 <style>
 .center {
     display: block;
@@ -29,3 +30,5 @@ border: 5px solid #555;
 `
 More detailed personal notes can be found in ./planning
 `
+
+</html>
