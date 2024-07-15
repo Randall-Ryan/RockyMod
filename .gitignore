@@ -31,8 +31,7 @@ forge*changelog.txt
 ROCKYNOTES.md
 
 # Logs
-*.log
-*.log.*
+run-data/logs
 
 # cache
 src/generated/resources/.cache
