@@ -33,3 +33,6 @@ ROCKYNOTES.md
 # Logs
 *.log
 *.log.*
+
+# cache
+src/generated/resources/.cache
