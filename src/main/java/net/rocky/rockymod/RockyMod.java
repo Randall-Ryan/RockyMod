@@ -17,23 +17,16 @@ import net.rocky.rockymod.item.ModCreativeModTabs;
 import net.rocky.rockymod.item.ModItems;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(RockyMod.MOD_ID)
-public class RockyMod
-{
-    // Define mod id in a common place for everything to reference
+public class RockyMod {
     public static final String MOD_ID = "rockymod";
-
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public RockyMod()
-    {
+    public RockyMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);
-
         ModBlocks.register(modEventBus);
-
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -41,11 +34,9 @@ public class RockyMod
         MinecraftForge.EVENT_BUS.register(this);
 
         modEventBus.addListener(this::addCreative);
-
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {
+    private void commonSetup(final FMLCommonSetupEvent event) {
 
     }
 
@@ -66,14 +57,12 @@ public class RockyMod
     }
 
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event)
-    {
+    public void onServerStarting(ServerStartingEvent event) {
 
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
+    public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {

@@ -13,7 +13,6 @@ import net.rocky.rockymod.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RockyMod.MOD_ID);
-
     public static final RegistryObject<CreativeModeTab> ROCKY_TAB = CREATIVE_MODE_TABS.register("rocky_tab", () -> CreativeModeTab.builder()
             .icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
             .title(Component.translatable("creativetab.rocky_tab"))
