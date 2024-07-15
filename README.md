@@ -1,20 +1,3 @@
-<html>
-<style>
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-#logo_img {
-border: 5px solid #555;
-}
-</style>
-<hr>
-<body>
-<img src="src/main/resources/logo.png" class="center" id="logo_img">
-</body>
-
 # 🗿RockyMod🗿
 
 <hr>
@@ -30,5 +13,3 @@ border: 5px solid #555;
 `
 More detailed personal notes can be found in ./planning
 `
-
-</html>
