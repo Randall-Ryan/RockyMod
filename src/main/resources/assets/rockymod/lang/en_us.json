@@ -11,5 +11,6 @@
   "block.rockymod.deepslate_sapphire_ore": "Block of Deepslate Sapphire Ore",
   "block.rockymod.nether_sapphire_ore": "Block of Nether Sapphire Ore",
   "block.rockymod.end_stone_sapphire_ore": "Block of End Stone Sapphire Ore",
-  "block.rockymod.sound_block": "Sound Block"
+  "block.rockymod.sound_block": "Sound Block",
+  "tooltip.rockymod.metal_detector.tooltip": "Finds valuable underground ores"
 }
