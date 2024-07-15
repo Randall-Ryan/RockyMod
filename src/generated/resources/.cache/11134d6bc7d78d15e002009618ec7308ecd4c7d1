@@ -1,6 +1,0 @@
-// 1.20.1	2024-07-15T15:58:48.9487101	Tags for minecraft:block mod id rockymod
-24cb8a76b9f5301bcf86c7d9c01d470e6b77ff1d data/forge/tags/blocks/needs_netherite_tool.json
-c4b428f3ff3d4491ac27d1c92dfc5a0138406611 data/minecraft/tags/blocks/mineable/pickaxe.json
-a8f260c05415642b54c2f21b1a09467c73018cb8 data/minecraft/tags/blocks/needs_iron_tool.json
-c4a496ed841cb866c66abb6713b0c9ebaaaf4837 data/minecraft/tags/blocks/needs_stone_tool.json
-8233aac2e99b6745d47b2cef929a0f7829ddd8d9 data/rockymod/tags/blocks/metal_detector_valuables.json
