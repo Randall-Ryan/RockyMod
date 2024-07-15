@@ -29,3 +29,7 @@ forge*changelog.txt
 
 # Notes
 ROCKYNOTES.md
+
+# Logs
+*.log
+*.log.*

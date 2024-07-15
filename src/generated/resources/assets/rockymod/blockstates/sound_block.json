@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rockymod:block/sound_block"
+    }
+  }
+}
