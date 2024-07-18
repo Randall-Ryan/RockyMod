@@ -34,7 +34,7 @@ public class SoundBlock extends Block {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
-        pTooltip.add(Component.literal("Makes sweet sounds when right-clicked!"));
+        pTooltip.add(Component.literal("Makes gross sounds when right-clicked!"));
         super.appendHoverText(pStack, pLevel, pTooltip, pFlag);
     }
 }
